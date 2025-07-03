@@ -1,2 +1,2 @@
-resource_group_name  = "demo-rg-05"
+resource_group_name  = "demo-rg-06"
 location             = "westus2"
