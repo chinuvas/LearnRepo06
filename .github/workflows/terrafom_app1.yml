@@ -7,7 +7,7 @@ on:
       - 'env/dev/app1-rg_demo/**'
 
 jobs:
-  terraform
+  terraform:
     name: Terraform RG Demo
     runs-on: ubuntu-latest
     defaults:
