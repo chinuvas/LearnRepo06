@@ -4,7 +4,7 @@ on:
     branches:
       - master
     paths:
-      - 'env/dev/app1-rg_demo/**'
+      - 'env\dev\app2-sa_demo/**'
 
 jobs:
   terraform:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory:  ./env/dev/app1-rg_demo
+        working-directory:  ./env\dev\app2-sa_demo
 
     steps:
       - name: Checkout Repository
